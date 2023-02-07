@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    /* border: 1px solid blue; */
+    border: 1px solid blue;
 
     }
 
@@ -13,14 +13,13 @@ body {
 }
 /* the main container */
 
-.front-side,
-.back-side {
+.front-side {
   width: 254px;
   height: 441px;
   position: relative;
   /* adjust this to space out the cards */
   margin: 110px auto;
-  overflow: hidden;
+  overflow: visible;
   box-shadow: 2px 5px 15px 0px #17161694;
   background-color:white;
 }
@@ -45,7 +44,7 @@ body {
 
 .icon-container{
 
-  width:80%;
+  width:64%;
   margin: 0 auto;
   display:grid;
   grid-template-columns: 1fr 1fr 1fr;
