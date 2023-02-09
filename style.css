@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
 
     }
 
@@ -38,6 +38,10 @@ body {
 
 }
 
+.text-container{
+
+}
+
 .secondary{
   display: grid;
   position: relative;
@@ -47,7 +51,6 @@ body {
 
 .bio{
   scale: 75%;
-
 }
 
 .tag-character{
@@ -64,6 +67,7 @@ body {
   grid-template-areas: 
   "a b c";
   grid-gap: 10px;
+
 }
 
 /* .circle{
@@ -93,8 +97,6 @@ svg{
 #icon-fill{
   fill:none;
 }
-
-
 
 .svg-interaction:hover{
   fill:rgb(118, 27, 237);
