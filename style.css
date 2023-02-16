@@ -38,8 +38,6 @@ body {
 
 }
 
-
-
 .secondary{
   display: grid;
   position: relative;
@@ -49,6 +47,7 @@ body {
 
 .bio{
   scale: 75%;
+  
 }
 
 .tag-character{
@@ -67,6 +66,9 @@ body {
   grid-gap: 10px;
 
 }
+
+
+
 
 /* .circle{
   background-image: url("/assets/circle.svg");
