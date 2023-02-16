@@ -21,7 +21,7 @@ body {
 @media screen and (max-width: 1200px) {
   body{
    transform-origin: top;
-   transform: scale(.7);
+   transform: scale(.5);
    margin:0 auto;
   }
  
@@ -78,7 +78,17 @@ body {
 
 }
 
+.mail{
+  scale: 90%;
+}
 
+.insta{
+  scale: 90%;
+}
+
+.linkedin{
+  scale: 90%;
+}
 
 
 /* .circle{
@@ -102,7 +112,7 @@ h5{
 .st1{display:inline;}
 
 svg{
-  fill:purple;
+  fill:rgb(19, 10, 19);
 }
 
 #icon-fill{
