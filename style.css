@@ -21,7 +21,7 @@ body {
 @media screen and (max-width: 1200px) {
   body{
    transform-origin: top;
-   transform: scale(.5);
+   transform: scale(.75);
    margin:0 auto;
   }
  
