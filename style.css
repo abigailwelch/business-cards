@@ -120,8 +120,8 @@ svg{
 } */
 
 .svg-interaction:hover{
-  fill:rgb(118, 27, 237);
-  opacity: 0.5;
+  fill:rgb(13, 12, 14);
+  opacity: 1;
   animation:pulse; 
   animation-duration: 2s;
 }
