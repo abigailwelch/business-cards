@@ -115,9 +115,9 @@ svg{
   fill:rgb(19, 10, 19);
 }
 
-/* #icon-fill{
-  fill:none;
-} */
+#icon-fill{
+  fill:rgb(13, 12, 14);
+}
 
 .svg-interaction:hover{
   fill:rgb(13, 12, 14);
@@ -125,5 +125,7 @@ svg{
   animation:pulse; 
   animation-duration: 2s;
 }
+
+
 #icon-fill:hover
   {fill:#009dff;}
