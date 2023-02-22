@@ -90,6 +90,21 @@ body {
   scale: 90%;
 }
 
+#icon-fill{
+  fill:rgb(255, 246, 246);
+}
+
+#icon-fill:hover{
+  fill:#f5e055;
+}
+
+.svg-interaction:hover{
+  fill:rgb(13, 12, 14);
+  opacity: 1;
+  animation:pulse; 
+  animation-duration: 2s;
+}
+
 
 /* .circle{
   background-image: url("/assets/circle.svg");
@@ -109,23 +124,12 @@ h5{
 
 /* svg styling */
 /* .st0{display:none;} */
-.st1{display:inline;}
+/* .st1{display:inline;} */
 
-svg{
+/* svg{
   fill:rgb(19, 10, 19);
-}
-
-#icon-fill{
-  fill:rgb(13, 12, 14);
-}
-
-.svg-interaction:hover{
-  fill:rgb(13, 12, 14);
-  opacity: 1;
-  animation:pulse; 
-  animation-duration: 2s;
-}
+} */
 
 
-#icon-fill:hover
-  {fill:#009dff;}
+
+
