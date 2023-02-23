@@ -29,7 +29,7 @@ body {
 
 .front-side {
   width: 254px;
-  height: 441px;
+  height: 460px;
   position: relative;
   /* adjust this to space out the cards */
   margin: 110px auto;
@@ -38,49 +38,38 @@ body {
   background-color:white;
 }
 
-/* .front-side{
-} */
 
-/* .name{
-  display: grid;
-  position: relative;
-  margin-left:50px;
-  padding: 10px
-} */
-
-/* .secondary{
-  display: grid;
-  position: relative;
-  margin-left:30px;
-
-} */
 
 .text-container{
+  padding: 11;
   text-align: center;
   font-family: 'Crimson Pro';
-  font-weight: 400;
-  font-size: 35px;
+  font-weight: 200;
+  font-size: 30px;
 }
 
 .bio{
+  /* padding: 20; */
   scale: 75%;
   
 }
 
 .tag-character{
-  scale: 84%;
+  padding: 20;
+  /* scale: 84%; */
 }
 
 .icon-container{
 
   width:64%;
+  
   margin: 0 auto;
   display:grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr;
   grid-template-areas: 
   "a b c";
-  grid-gap: 10px;
+  grid-gap: 15px;
 
 }
 
@@ -136,6 +125,19 @@ h5{
   fill:rgb(19, 10, 19);
 } */
 
+/* .front-side{
+} */
 
+/* .name{
+  display: grid;
+  position: relative;
+  margin-left:50px;
+  padding: 10px
+} */
 
+/* .secondary{
+  display: grid;
+  position: relative;
+  margin-left:30px;
 
+} */
