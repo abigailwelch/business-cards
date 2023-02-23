@@ -29,10 +29,10 @@ body {
 
 .front-side {
   width: 254px;
-  height: 460px;
+  height: 495px;
   position: relative;
   /* adjust this to space out the cards */
-  margin: 110px auto;
+  margin: 100px auto;
   overflow: visible;
   box-shadow: 2px 5px 15px 0px #17161694;
   background-color:white;
@@ -49,14 +49,11 @@ body {
 }
 
 .bio{
-  /* padding: 20; */
   scale: 75%;
-  
 }
 
 .tag-character{
   padding: 20;
-  /* scale: 84%; */
 }
 
 .icon-container{
