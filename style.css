@@ -41,19 +41,25 @@ body {
 /* .front-side{
 } */
 
-.name{
+/* .name{
   display: grid;
   position: relative;
   margin-left:50px;
   padding: 10px
+} */
 
-}
-
-.secondary{
+/* .secondary{
   display: grid;
   position: relative;
   margin-left:30px;
 
+} */
+
+.text-container{
+  text-align: center;
+  font-family: 'Crimson Pro';
+  font-weight: 400;
+  font-size: 35px;
 }
 
 .bio{
@@ -99,7 +105,7 @@ body {
 }
 
 .svg-interaction:hover{
-  fill:rgb(13, 12, 14);
+  /* fill:rgb(13, 12, 14); */
   opacity: 1;
   animation:pulse; 
   animation-duration: 2s;
